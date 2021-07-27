@@ -1,0 +1,27 @@
+{
+  "displayName": "form date input",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "text",
+      "default": "Happy Hacking"
+    },
+    {
+      "name": "color",
+      "displayName": "Color",
+      "type": "color",
+      "default": "#00A898"
+    },
+    {
+      "name": "date",
+      "displayName": "date",
+      "type": "date",
+      "role": "formValue"
+    }
+  ]
+}

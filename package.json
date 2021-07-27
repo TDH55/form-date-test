@@ -1,0 +1,34 @@
+{
+  "name": "form-date-input",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "form date input",
+    "components": [
+      {
+        "name": "FormDateInput",
+        "manifest": "./src/components/FormDateInput/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.42",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "react-datepicker": "^4.1.1",
+    "react-native-datepicker": "^1.7.2"
+  }
+}
